@@ -1,1 +1,1 @@
-# Google_data_analytics_capstone_cyclistic_casestudy
+# Google_data_analytics_capstone_cyclistic_case_study
