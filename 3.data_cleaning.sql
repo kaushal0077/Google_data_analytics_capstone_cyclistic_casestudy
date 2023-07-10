@@ -1,6 +1,6 @@
                       -----cleaning of 12 months combined data retreive it as cleaned_combined_data-------
 
------creating a temporary table namely cleaned_combined_data
+-----clean the combined data obtain after combining all 12 month's data and creating a temporary table namely cleaned_combined_data 
 with cleaned_combined_data as
 (select trim(ride_id)as ride_id,
 trim(rideable_type)as rideable_type,
