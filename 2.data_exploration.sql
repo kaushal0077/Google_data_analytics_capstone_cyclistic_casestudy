@@ -29,7 +29,7 @@ select
 count (*) as count_null_start_station_name
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-start_station_name is null                                       ----654966 null rows-----
+start_station_name is null                                       ----652361 null rows-----
 
   
 -----Exploring nulls in start_station_id column---------
@@ -37,7 +37,7 @@ select
 count (*) as count_null_start_station_id
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-start_station_id is null                                         ----655098 nulls rows----
+start_station_id is null                                         ----652493 nulls rows----
 
 
 -----Exploring nulls in end_station_name column---------
@@ -45,14 +45,14 @@ select
 count (*) as count_null_end_station_name
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-end_station_name is null                                        -----729490 nulls rows----
+end_station_name is null                                        -----696338 nulls rows----
 
 -----Exploring nulls in end_station_id column---------
 select 
 count (*) as count_null_end_station_id
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-end_station_id is null                                         ----729631 nulls rows----
+end_station_id is null                                         ----696479 nulls rows----
 
 -----Exploring nulls in start_lat column---------
 select 
@@ -73,14 +73,14 @@ select
 count (*) as count_null_end_lat
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-end_lat is null                                              ---- 4553 null rows ----
+end_lat is null                                              ---- 4196 null rows ----
 
 -----Exploring nulls in end_lng column---------
 select 
 count (*) as count_null_end_lng
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-end_lng is null                                             ----4553 null rows ----
+end_lng is null                                             ----4196 null rows ----
 
 -----Exploring nulls in member_casual column---------
 select 
@@ -119,7 +119,7 @@ start_lng,
 end_lat,
 end_lng,
 member_casual
-having count_ride_id >1          --------------------------------found 400771 rows of duplicate data-------------
+having count_ride_id >1          --------------------------------no duplicate data found -------------
 
 
 
