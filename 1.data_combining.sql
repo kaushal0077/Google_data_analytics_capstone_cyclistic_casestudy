@@ -49,4 +49,4 @@ select *
 from `adept-lodge-374014.bikeshare_cyclistic.april_2023`
 union all
 select *
-from `adept-lodge-374014.bikeshare_cyclistic.may_2023`) as new_final_combined_data
+from `adept-lodge-374014.bikeshare_cyclistic.may_2023`) as complete_trip_data
