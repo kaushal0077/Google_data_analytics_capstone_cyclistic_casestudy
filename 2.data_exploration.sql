@@ -90,6 +90,36 @@ where
 member_casual is null                                      ----- no null found ----
 
 ----------------------Exploring Duplicates ---------------------------------------
+select
+count(ride_id)as count_ride_id,
+rideable_type,
+started_at,
+ended_at,
+start_station_name,
+start_station_id,
+end_station_id,
+end_station_name,
+start_lat,
+start_lng,
+end_lat,
+end_lng,
+member_casual
+from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
+group by
+ride_id,
+rideable_type,
+started_at,
+ended_at,
+start_station_name,
+start_station_id,
+end_station_id,
+end_station_name,
+start_lat,
+start_lng,
+end_lat,
+end_lng,
+member_casual
+having count_ride_id >1          --------------------------------found 400771 rows of duplicate data-------------
 
 
 
