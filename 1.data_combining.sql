@@ -16,7 +16,7 @@ select *
 from `adept-lodge-374014.bikeshare_cyclistic.august_2022_01`
 union all
 select *
-from `adept-lodge-374014.bikeshare_cyclistic.august_2022_01`
+from `adept-lodge-374014.bikeshare_cyclistic.august_2022_02`
 union all
 select *
 from `adept-lodge-374014.bikeshare_cyclistic.sept_2022_01`
