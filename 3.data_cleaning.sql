@@ -69,7 +69,7 @@ ride_length
 from cleaned_combined_data
 -----here 8760 is total number of hours in a year
 where ride_length is not null and timestamp_diff(ended_at,started_at,hour)<8760 and ended_at>started_at
-
+--------after cleaning got 4458946 rows of data -------------
 
 
 
