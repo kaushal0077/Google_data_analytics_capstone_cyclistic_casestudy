@@ -29,7 +29,7 @@ select
 count (*) as count_null_start_station_name
 from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
 where
-start_station_name is null                                       ----652361 null rows-----
+start_station_name is null                                       ----834677 null rows-----
 
   
 -----Exploring nulls in start_station_id column---------
