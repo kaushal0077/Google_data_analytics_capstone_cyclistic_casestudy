@@ -24,5 +24,5 @@ d)Data was downloaded as csv zip file then extracted and bifurcated into two csv
 ## PROCESS
 I used BigQuery to combine the various datasets into one dataset and clean it, because a worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data.  The Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.And in Rstudio too there were limited memory available for me to work with so I prefered Big-query and SQL.
 ## COMBINING THE DATA
-To combine the data I used this [SQL Query](
+To combine the data I used this [SQL Query](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/db9404b34e6817d9cfb586800e9607f123f6bf9b)
  
