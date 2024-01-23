@@ -26,5 +26,5 @@ I used BigQuery to combine the various datasets into one dataset and clean it, b
 ## COMBINING THE DATA
 To combine the data I used this [SQL Query](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/db9404b34e6817d9cfb586800e9607f123f6bf9b) where all of my 18 data tables were combined to give a combined_trip_data
 ## DATA EXPLORATION
-After combining all the data it was time to explore any null value ,duplicates etc in the data I used these query to find out the null and duplicate values all the information are there in this [SQL QUERY]()
+After combining all the data it was time to explore any null value ,duplicates etc in the data I used these query to find out the null and duplicate values all the information are there in this [SQL QUERY](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/366d86804e55a86fdf18b1bde3013e126c26cf87)
  
