@@ -16,11 +16,11 @@ By looking at the data, we aim to find patterns and insights that will help the 
 How do annual members and casual riders use Cyclistic bikes differently ?
 ## PREPARE
 ### DATA ORGANISATION
-a)Data source : Public data from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this license.
+a) Data source : Public data from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this license.
 Cyclistic’s historical trip data (2013 onwards) available in .csv format.
 b) date range : June 2022 to May 2023 (608 MB data)
-c)The dataset has individual ride records comprising of ride_id,rideeable_type,start_station,End_station detail ,dat of thier rides and membership details 
-d)Data was downloaded as csv zip file then extracted and bifurcated into two csv files whose file size were greater than 100mb as Big-Query data base doesn't support greater than 100 mb data uploading .
+c) The dataset has individual ride records comprising of ride_id,rideeable_type,start_station,End_station detail ,dat of thier rides and membership details 
+d) Data was downloaded as csv zip file then extracted and bifurcated into two csv files whose file size were greater than 100mb as Big-Query data base doesn't support greater than 100 mb data uploading .
 ## PROCESSING AND CLEANING
 I used BigQuery to combine the various datasets into one dataset and clean it, because a worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data.  The Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.And in Rstudio too there were limited memory available for me to work with so I prefered Big-query and SQL.
 ### COMBINING THE DATA
