@@ -28,7 +28,7 @@ To combine the data I used this [SQL Query](https://github.com/kaushal0077/Googl
 ### DATA EXPLORATION
 After combining all the data it was time to explore any null value ,duplicates etc in the data I used these query to find out the null and duplicate values all the information are there in this [SQL QUERY](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/366d86804e55a86fdf18b1bde3013e126c26cf87)
 ### DATA CLEANING
-[SQL QUERIES]() for the cleaning is here 
+[SQL QUERIES](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/750cb601f47ca4bab90b10649c245f447756e724) for the cleaning is here 
 1. all the null rows were deleted 
 2. Any duplicate data  is removed 
 3. day_of_week ,month_of_start new column were created
