@@ -1,11 +1,11 @@
 # Google_data_analytics_capstone_cyclistic_casestudy
 ## Table of Contents
 1. [INTRODUCTION](#INTRODUCTION)
-2. [BUSINESSTASK](#BUSINESS TASK)
+2. [BUSINESS TASK](#BUSINESSTASK)
 3. [PREPARE](#PREPARE)
-4. [PROCESSINGANDCLEANING](#PROCESSING AND CLEANING)
-5. [ANALYSISandVIZ](#ANALYSIS AND VIZ)
-6. [CONCLUSIONandRECOMMENDATIONS](#CONCLUSION AND RECOMMENDATIONS)
+4. [PROCESSING AND CLEANING](#PROCESSING-AND-CLEANING)
+5. [ANALYSIS and VIZ](#ANALYSIS-AND-VIZ)
+6. [CONCLUSION and RECOMMENDATIONS](#CONCLUSION-AND-RECOMMENDATIONS)
 
 ## INTRODUCTION
 The goal of this project is to analyze the data from Cyclistic bike share company in Chicago. The company has two types of users: casual riders (who buy one-time passes) and members (who subscribe annually). With 5884 bikes at 692 stations, the company wants to attract more annual members for financial stability and customer loyalty.
