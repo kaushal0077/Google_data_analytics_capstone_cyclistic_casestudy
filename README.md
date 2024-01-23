@@ -29,9 +29,9 @@ To combine the data I used this [SQL Query](https://github.com/kaushal0077/Googl
 After combining all the data it was time to explore any null value ,duplicates etc in the data I used these query to find out the null and duplicate values all the information are there in this [SQL QUERY](https://github.com/kaushal0077/Google_data_analytics_capstone_cyclistic_casestudy/commit/366d86804e55a86fdf18b1bde3013e126c26cf87)
 ### DATA CLEANING
 [SQL QUERIES]() for the cleaning is here 
-1.all the null rows were deleted 
-2.Any duplicate data  is removed 
-3.day_of_week ,month_of_start new column were created
+1. all the null rows were deleted 
+2. Any duplicate data  is removed 
+3. day_of_week ,month_of_start new column were created
 ##  ANALYSIS AND VIZ
 [SQL QUERY]()for data analyis ,There are 1734722 casual rider and 2724224  annual rider it can be seen [here](https://public.tableau.com/app/profile/kaushal.verma/viz/CASUAL_MEMBER_DATA/Sheet2) I analysed data with total number of rides carried out by casual and member and found this [insight](https://public.tableau.com/app/profile/kaushal.verma/viz/finalgoogledataanalyticsprojectcomplete/Story1) in Tableau
  seeing the behaviour of casual and member behaviour per month I found this it suggested that casual member are more active in  june,july and august   months
@@ -39,7 +39,7 @@ After combining all the data it was time to explore any null value ,duplicates e
  next I plotted casual and member behaviour against the hour of the day so that I could get an idea about in weekend at which time  casual member are more active and found they are more active on 4-6 pm at the evening.I also searched the starting and end station of both casual and member rider and found[this](https://public.tableau.com/app/profile/kaushal.verma/viz/GOOGLE_DATA_ANALYTICS_CAPSTONE_PROJECT/Sheet1)for starting station and [this](https://public.tableau.com/app/profile/kaushal.verma/viz/GOOGLE_DATA_ANALYTICS_PROJECT/Sheet2) for end station which sugggested casual rider used bikes for recreational activity where annaul member use it for daily activity.all with all these behaviour I also found thier bike-preferences [here](https://public.tableau.com/app/profile/kaushal.verma/viz/casual_meber_bike_prefrence/Sheet1)
 ## CONCLUSION AND RECOMMENDATIONS
 After analyzing the different behaviour of casual and member these marketing startegies could be considered to convert casual to annual member.
-1.run marketing campain on these months near the recreational site
-2.Give discount on the weekend bike ride specially at evenining time around these time interval as mostly casual member prefer to ride on weekends 
-3.also annual prefer all three types of bike among which classic bike,it can also think to give some offer on docked bike as there is no demand of it in members and there are some casual member having demand of docked bike in this way its demand will also get increased.
+1. run marketing campain on these months near the recreational site
+2. Give discount on the weekend bike ride specially at evenining time around these time interval as mostly casual member prefer to ride on weekends 
+3. also annual prefer all three types of bike among which classic bike,it can also think to give some offer on docked bike as there is no demand of it in members and there are some casual member having demand of docked bike in this way its demand will also get increased.
 
