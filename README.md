@@ -1,11 +1,11 @@
 # Google_data_analytics_capstone_cyclistic_casestudy
 ## Table of Contents
-1.Introduction
-2.Business Task
-3.Data
-4.Processing and Cleaning
-5.Analysis and Viz
-6.Conclusion and Recommendations
+**1.Introduction
+**2.Business Task
+**3.Data
+**4.Processing and Cleaning
+**5.Analysis and Viz
+**6.Conclusion and Recommendations
 
 ## INTRODUCTION
 The goal of this project is to analyze the data from Cyclistic bike share company in Chicago. The company has two types of users: casual riders (who buy one-time passes) and members (who subscribe annually). With 5884 bikes at 692 stations, the company wants to attract more annual members for financial stability and customer loyalty.
@@ -14,7 +14,8 @@ By looking at the data, we aim to find patterns and insights that will help the 
 
 ## BUSINESS TASK
 How do annual members and casual riders use Cyclistic bikes differently ?
-## DATA
+## PREPARE
+### DATA
 a)Data source : Public data from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this license.
 Cyclistic’s historical trip data (2013 onwards) available in .csv format.
 b) date range : June 2022 to May 2023 (608 MB data)
