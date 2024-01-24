@@ -16,7 +16,7 @@ trim(end_station_id) as end_station_id,
 (cast(trim(cast(end_lng as string))as float64)) as end_lng,
 trim(member_casual)as member_casual,
 (ended_at-started_at)as ride_length
- from `adept-lodge-374014.bikeshare_cyclistic.new_final_combined_data`
+ from `adept-lodge-374014.bikeshare_cyclistic.complete_trip_data`
  where
  start_station_name is not null and
  start_station_id is not null and
